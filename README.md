@@ -1,190 +1,268 @@
-🚀 Formation Azure – De Zéro à Expert en 30 Jours
-Azure Zero to Hero – Complete DevOps & Cloud Bootcamp
+# 🚀 Azure Zero a Hero – Formation Azure & DevOps en 30 Jours
 
-📌 Description
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge\&logo=microsoft-azure)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-AKS-326CE5?style=for-the-badge\&logo=kubernetes)
+![Terraform](https://img.shields.io/badge/Infrastructure%20as%20Code-Terraform-7B42BC?style=for-the-badge\&logo=terraform)
+![DevOps](https://img.shields.io/badge/DevOps-CI%2FCD-FF6C37?style=for-the-badge)
+![Licence](https://img.shields.io/badge/Licence-MIT-green?style=for-the-badge)
 
-Une formation complète et progressive pour maîtriser Microsoft Azure, du niveau débutant jusqu’aux concepts avancés :
+> **Un programme complet et pratique pour devenir ingénieur Azure / DevOps prêt pour la production en 30 jours.**
 
-Cloud Computing
+---
 
-Infrastructure Azure
+## 📌 Présentation
 
-Networking avancé
+Ce dépôt contient l’ensemble du matériel de la formation **Azure Zero a Hero**, incluant :
 
-Azure DevOps (CI/CD)
+* Cours structurés jour par jour
+* Architectures professionnelles
+* Projets réels orientés production
+* Pipelines CI/CD avec Azure DevOps
+* Déploiements Kubernetes (AKS)
+* Infrastructure as Code avec Terraform
+* Préparation aux entretiens Azure DevOps
 
-Kubernetes (AKS)
+Cette formation est orientée **compétences pratiques et employabilité**.
 
-Monitoring
+---
 
-Serverless
+## 🎯 Objectif Final
 
-Infrastructure as Code (Terraform)
+À la fin des 30 jours, vous serez capable de :
 
-🎥 Playlist YouTube Officielle
+* Concevoir une architecture Azure professionnelle
+* Déployer et sécuriser des applications dans Azure
+* Implémenter des pipelines CI/CD
+* Déployer des microservices sur AKS
+* Mettre en place le monitoring et la gestion des secrets
+* Automatiser l’infrastructure avec Terraform
+* Réussir des entretiens Azure / DevOps
 
-👉 Playlist complète ici :
-[🔗 Lien vers la playlist YouTube]
+---
 
-⭐ Pourquoi ce dépôt ?
+## 🎥 Playlist YouTube Officielle
 
-Ce repository contient :
+📺 Formation complète en vidéo :
+👉 **[Ajouter ici le lien de la playlist]**
 
-📘 Notes structurées
+---
 
-🧠 Questions d’entretien
+# 📅 Programme Détaillé – 30 Jours
 
-🏗 Architectures professionnelles
+---
 
-🐳 Dockerfiles
+## 🔹 Semaine 1 – Fondamentaux Azure
 
-☸ Manifestes Kubernetes
+### Jour 1 – Introduction au Cloud
 
-🌍 Scripts Terraform
+* Cloud public, privé, hybride
+* Virtualisation
+* Scalabilité & Élasticité
+* Haute disponibilité
+* Reprise après sinistre
+* Répartition de charge
 
-🔐 Sécurité & bonnes pratiques
+### Jour 2 – Prise en main d’Azure
 
-📅 Programme Détaillé – 30 Jours
-🟦 Jour 1 – Introduction au Cloud
+* Création d’un compte Azure
+* Régions & Availability Zones
+* IaaS vs PaaS vs SaaS
 
-Cloud public, privé, hybride
+### Jour 3 – Azure Resource Manager
 
-Virtualisation
+* Ressources Azure
+* Groupes de ressources
+* Architecture ARM
+* Bonnes pratiques d’organisation
 
-Scalabilité & Élasticité
+### Jour 4 – Machines Virtuelles Azure
 
-Haute disponibilité
+* Déploiement de VM
+* Connexion SSH / RDP
+* VM Scale Sets
 
-Disaster Recovery
+### Jour 5 – Réseau Azure (Fondamentaux)
 
-Load Balancing
+* Virtual Network (VNet)
+* Subnets & CIDR
+* Network Security Groups (NSG)
+* Route Tables
 
-🟦 Jour 2 – Prise en Main Azure
+### Jour 6 – Réseau Avancé
 
-Création compte Azure
+* Azure Load Balancer
+* Application Gateway & WAF
+* Azure Firewall
+* VPN Gateway
+* VNet Peering
 
-Régions & Availability Zones
+### Jour 7 – 🔥 Projet 1
 
-IaaS vs PaaS vs SaaS
+Déploiement d’une application sécurisée derrière Azure Firewall
 
-🟦 Jour 3 – Azure Resource Manager
+---
 
-Resource Groups
+## 🔹 Semaine 2 – DevOps & Automatisation
 
-ARM
+### Jour 8 – Questions d’entretien Azure (Compute & Networking)
 
-Organisation des ressources
+### Jour 9 – Services de Stockage Azure
 
-🟦 Jour 4 – Azure Virtual Machines
+### Jour 10 – Azure CLI Approfondi
 
-Déploiement VM
+### Jour 11 – ARM Templates & Bicep
 
-Connexion SSH / RDP
+* Comparaison ARM / Bicep / Terraform
 
-VM Scale Sets
+### Jour 12 – Gestion des Identités & Accès (IAM)
 
-🟦 Jour 5 – Azure Networking Fondamentaux
+* Azure AD
+* RBAC
+* Bonnes pratiques de sécurité
 
-Virtual Network
+### Jour 13 – Introduction à Azure DevOps
 
-Subnets & CIDR
+### Jour 14 – 🔥 Projet 2
 
-NSG & ASG
+Mise en place d’une pipeline CI
+Application microservices multi-stack
 
-Route Tables
+---
 
-🟦 Jour 6 – Networking Avancé
+## 🔹 Semaine 3 – Kubernetes & Déploiement Continu
 
-Azure Load Balancer
+### Jour 15 – 🔥 Projet 3
 
-Application Gateway & WAF
+Déploiement Continu avec AKS
 
-Azure Firewall
+* Création cluster AKS
+* Node Pools (VM Scale Sets)
+* Pipeline CI/CD complète
 
-VPN Gateway
+### Jour 16 – AKS Approfondissement
 
-VNet Peering
-
-🟦 Jour 7 – 🔥 PROJET 1
-
-Déploiement d'une application derrière Azure Firewall
-Architecture complète sécurisée.
-
-🟦 Jour 14 – 🔥 PROJET 2
-
-CI Pipeline Azure DevOps
-Application microservices multi-stack.
-
-🟦 Jour 15 – 🔥 PROJET 3
-
-CD Pipeline avec AKS
-Déploiement automatisé production-ready.
-
-🟦 Jour 17 – 🔥 PROJET 4
+### Jour 17 – 🔥 Projet 4
 
 Architecture E-commerce 3-Tiers sur AKS
 
-🟦 Jour 23 – 🔥 PROJET 7
+* Dockerfiles
+* Kubernetes Deployments
+* Services & Ingress
+* Exposition publique
 
-Infrastructure as Code avec Terraform
+### Jour 18 – Préparation entretiens Azure DevOps
 
-🏆 Objectif Final
+---
 
-À la fin de cette formation, vous serez capable de :
+## 🔹 Semaine 4 – Monitoring, Sécurité & Infrastructure as Code
 
-✔ Concevoir une architecture Azure production-ready
-✔ Déployer AKS professionnellement
-✔ Mettre en place CI/CD
-✔ Implémenter Monitoring & Security
-✔ Automatiser avec Terraform
-✔ Réussir des entretiens Azure DevOps
+### Jour 19 – Azure Monitor
 
-🧠 À Qui S’adresse Cette Formation ?
+### Jour 20 – Azure Key Vault
 
-Étudiants
+* Gestion des secrets
+* Intégration avec CSI Driver
 
-Développeurs Backend
+### Jour 21 – Architecture Serverless Azure
 
-DevOps débutants
+### Jour 22 – 🔥 Projet 5
 
-Ingénieurs système
+Azure Functions déclenchées par événements
 
-Toute personne voulant maîtriser Azure
+### Jour 23 – 🔥 Projet 7
 
-🛠 Technologies Utilisées
+Infrastructure Azure avec Terraform
 
-Microsoft Azure
+* Connexion Azure ↔ Terraform
+* Remote State
+* Bonnes pratiques professionnelles
 
-Azure CLI
+### Jour 24 – Préparation CV Azure DevOps
 
-ARM / Bicep
+### Jour 25 – Préparation aux entretiens & sessions pratiques
 
-Terraform
+---
 
-Docker
+# 🏗 Structure du Dépôt
 
+```
+azure-zero-to-hero-30-days/
+│
+├── docs/
+├── projects/
+├── terraform/
+├── arm-templates/
+├── bicep/
+├── scripts/
+└── README.md
+```
+
+---
+
+# 🛠 Technologies Couvertes
+
+* Microsoft Azure
+* Azure CLI
+* Azure DevOps
+* Kubernetes (AKS)
+* Docker
+* Terraform
+* ARM Templates
+* Bicep
+* Azure Monitor
+* Azure Key Vault
+* Azure Functions
+
+---
+
+# 👥 Public Cible
+
+* Développeurs Backend souhaitant évoluer vers le Cloud
+* Ingénieurs DevOps
+* Étudiants en informatique
+* Administrateurs systèmes
+* Professionnels IT en reconversion Cloud
+
+---
+
+# 📈 Parcours d’Apprentissage
+
+```
+Fondamentaux Cloud
+        ↓
+Services Azure
+        ↓
+Réseau & Sécurité
+        ↓
+CI/CD
+        ↓
 Kubernetes (AKS)
+        ↓
+Monitoring & Sécurité
+        ↓
+Infrastructure as Code
+```
 
-Azure DevOps
+---
 
-Python / Node.js / .NET
+# 🤝 Contribution
 
-📈 Roadmap Visuelle
-Cloud → Azure Core → Networking → DevOps → AKS → Monitoring → Security → Terraform
+Les contributions sont les bienvenues.
 
-🤝 Contribution
+Merci d’ouvrir une issue avant toute Pull Request.
 
-Les contributions sont les bienvenues !
-Merci de lire CONTRIBUTING.md.
+---
 
-📄 License
+# 📄 Licence
 
-MIT License
+Ce projet est distribué sous licence MIT.
 
-⭐ Support
+---
 
-Si ce projet vous aide :
+# ⭐ Soutenir le Projet
 
-👉 Mettez une ⭐
-👉 Abonnez-vous à la chaîne YouTube
-👉 Partagez avec la communauté
+Si ce dépôt vous aide :
+
+* ⭐ Ajoutez une étoile
+* 📢 Partagez avec votre réseau
+* 🔔 Abonnez-vous à la chaîne YouTube
